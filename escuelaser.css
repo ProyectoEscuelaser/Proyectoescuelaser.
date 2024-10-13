@@ -1,0 +1,28 @@
+div {
+    background-color:rgb(189, 189, 176);
+    text-align: center;
+    text-shadow: 2px 2px 13px;
+    width: 1280px;
+  }
+  
+  img {
+    width: 1280px;
+  }
+  
+  body{
+    background-color:#d8d8ce;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+  }
+  .comentarios {
+      margin-top: 20px;
+  }
+  .comentario {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+  

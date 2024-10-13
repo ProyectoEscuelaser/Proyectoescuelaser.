@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <title>ESCUELA SER </title>
+  <link rel="stylesheet" href="escuelaser.css"> 
+</head>
+
+<body><center>
+
+  <div>
+    <h1>PROYECTO ESCUELA SER </h1>
+  </div>
+<DIV>
+  <H2>Bienvenidos a nuestra escuela SER, un lugar especialmente diseñado para brindar un entorno inclusivo y enriquecedor para niños  autistas.
+    Aca, entendemos que cada niño es único y tiene sus propias fortalezas y desafíos.
+     Nuestro objetivo es fomentar su desarrollo integral, tanto académico como emocional.</H2>
+</DIV>
+  <img src="SALONSER.jpg"/>
+  <DIV>
+  <H3>Contamos con un equipo de profesionales altamente capacitados que utilizan enfoques personalizados y estrategias adaptadas a las necesidades de cada estudiante.
+     Promovemos un aprendizaje basado en la comunicación, la socialización y la creatividad, asegurando que cada niño pueda avanzar a su propio ritmo.</H3>
+ </DIV>
+
+
+     <img src="PROFES.jpg"/>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+  
+</head>
+    
+    <form id="formulario-comentarios">
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" required></textarea><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div class="comentarios" id="lista-comentarios">
+        <!-- Aquí se mostrarán los comentarios -->
+    </div>
+
+    <script>
+        const formulario = document.getElementById('formulario-comentarios');
+        const listaComentarios = document.getElementById('lista-comentarios');
+
+        formulario.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const nombre = document.getElementById('nombre').value;
+            const comentario = document.getElementById('comentario').value;
+
+            const nuevoComentario = document.createElement('div');
+            nuevoComentario.classList.add('comentario');
+            nuevoComentario.innerHTML = <p>${comentario}</p>;
+            listaComentarios.appendChild(nuevoComentario);
+
+            formulario.reset();
+        });
+    </script>
+  <title>Redes sociales </title>
+   <div> <a href="https://www.instagram.com/proyecto_escuelaser/?utm_source=ig_web_button_share_sheet">Instagram</a>
+    <a href="https://www.facebook.com/profile.php?id=61566711612616">Facebook</a>
+
+</div>
+  
+    <div>
+      <footer><b>Proyecto Escuela Ser <b></footer>
+    </div>
+  </body></center>
+</html>
